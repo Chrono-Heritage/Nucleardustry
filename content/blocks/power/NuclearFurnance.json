@@ -1,0 +1,26 @@
+{
+    "type": "ConsumeGenerator",
+    "itemDuration": 1200,
+    "size": 2,
+    "health": 400,
+    "hasLiquids": false,
+    "powerProduction": 5,
+    "warmupSpeed": 0.005,
+    "consumes": {
+      "items": [
+        "Uranium/1",
+      ],
+    },
+    "category": "power",
+    "ambientSound": "power/NuclearFurnace",
+    "ambientSoundVolume": 0.5,
+    "research": "differentialGenerator",
+    "requirements": [
+      "copper/60",
+      "titanium/40",
+      "lead/35",
+      "metaglass/30",
+      "silicon/20"
+    ]
+  }
+  
