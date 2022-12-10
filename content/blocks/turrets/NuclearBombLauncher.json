@@ -1,6 +1,7 @@
 {
     "type": "ItemTurret",
     "health": 10000,
+    "buildCostMultiplier": 0.5,
     "size": 4,
     "maxAmmo": 2,
     "reload": 1800,
@@ -41,10 +42,24 @@
             "homingPower": 0.05,
             "splashDamage": 8192,
             "splashDamageRadius": 600
-        },
+        }
     },
     "category": "turret",
-    "research": "fuse",
+    "research": {
+        "parent": "fuse",
+        "requirements":[
+            "copper/3500",
+            "lead/2000",
+            "graphite/1500",
+            "silicon/1500",
+            "titanium/1000",
+            "metaglass/1000",
+            "Uranium/1000",
+            "thorium/1000",
+            "surge-alloy/500",
+            "plastanium/500"
+        ]
+    },
     "requirements": [  
         "copper/400",  
         "lead/200",

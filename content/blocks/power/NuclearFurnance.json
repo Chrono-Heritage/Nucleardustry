@@ -1,26 +1,53 @@
 {
     "type": "ConsumeGenerator",
     "itemDuration": 1200,
+    "buildCostMultiplier": 0.75,
     "size": 2,
     "health": 400,
     "hasLiquids": false,
     "powerProduction": 5,
     "warmupSpeed": 0.005,
-    "consumes": {
-      "items": [
-        "Uranium/1",
-      ],
+    "consumes":{
+      "items": {
+        "items": [
+          "Uranium/1"
+        ]
+      }
     },
     "category": "power",
+    "research": "differentialGenerator",
     "ambientSound": "power/NuclearFurnace",
     "ambientSoundVolume": 0.5,
-    "research": "differentialGenerator",
+    "research":{
+      "parent": "Uranium",
+      "requirements":[
+          "copper/2500",
+          "silicon/1000",
+          "metaglass/500",
+          "titanium/350",
+          "thorium/250",
+          "Uranium/250"
+      ]
+    },
     "requirements": [
       "copper/60",
       "titanium/40",
       "lead/35",
       "metaglass/30",
       "silicon/20"
+    ],
+    "drawer": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawWarmupRegion"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-top",
+        "rotateSpeed": 5
+      }
     ]
   }
   

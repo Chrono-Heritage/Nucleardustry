@@ -1,0 +1,57 @@
+{
+  "type": "GenericCrafter",
+  "itemCapacity": 60,
+  "health": 2000,
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 120,
+  "buildCostMultiplier": 0.65,
+  "consumes": {
+    "power": 2.5,
+    "items": {
+      "items": [
+        "thorium/1",
+        "Uranium/1",
+        "titanium/3"
+      ]
+    }
+  },
+  "drawer": [
+    {
+      "type": "DrawDefault"
+    },
+    {
+      "type": "DrawWarmupRegion"
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-top",
+      "rotateSpeed": 5
+    }
+  ],
+  "outputItem": "Radioalloy/2",
+  "category": "crafting",
+  "research": "plastaniumCompressor",
+  "ambientSound": "power/NuclearFurnace",
+  "ambientSoundVolume": 0.75,
+  "research":{
+    "parent": "Uranium",
+    "requirements":[
+        "copper/2500",
+        "silicon/1000",
+        "metaglass/500",
+        "titanium/350",
+        "thorium/250",
+        "Uranium/250"
+    ]
+  },
+  "requirements": [
+    "copper/200",
+    "silicon/75",
+    "metaglass/50",
+    "titanium/30",
+    "thorium/20",
+    "Uranium/20"
+  ]
+}
