@@ -7,12 +7,10 @@
     "hasLiquids": false,
     "powerProduction": 5,
     "warmupSpeed": 0.005,
-    "consumes":{
-      "items": {
-        "items": [
-          "Uranium/1"
-        ]
-      }
+    "consume":{
+      "items":[
+        "Uranium/1"
+      ]
     },
     "category": "power",
     "research": "differentialGenerator",
