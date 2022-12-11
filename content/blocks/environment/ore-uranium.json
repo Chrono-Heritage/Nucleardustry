@@ -1,9 +1,0 @@
-{
-"type": "OreBlock",
-"itemDrop": "Uranium",
-"playerUnmineable": true,
-"oreDefault": true,
-"variants": 6,
-"oreScale": 20,
-"oreThreshold": 1.0
-}
