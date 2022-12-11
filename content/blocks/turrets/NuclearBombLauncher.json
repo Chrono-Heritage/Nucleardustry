@@ -2,14 +2,14 @@
     "type": "ItemTurret",
     "health": 8192,
     "size": 4,
-    "maxAmmo": 2,
+    "maxAmmo": 20,
     "reload": 1800,
     "shake": 0.5,
     "shootSound": "Turrets/Nuclear-missle-shoot",
     "range": 60000,
     "shootCone": 360,
     "rotateSpeed": 0,
-    "ammoPerShot": 2,
+    "ammoPerShot": 10,
     "ammoTypes": {
         "thorium": {
             "type": "MissileBulletType",
