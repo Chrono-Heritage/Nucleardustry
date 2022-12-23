@@ -1,12 +1,12 @@
 {
   "type": "GenericCrafter",
   "itemCapacity": 60,
-  "health": 2000,
+  "health": 750,
   "size": 3,
   "hasPower": true,
   "hasItems": true,
-  "craftTime": 120,
-  "buildCostMultiplier": 0.65,
+  "craftTime": 75,
+  "buildCostMultiplier": 0.5,
   "consumes": {
     "power": 2.5,
     "items": {
@@ -22,17 +22,11 @@
       "type": "DrawDefault"
     },
     {
-      "type": "DrawWarmupRegion"
-    },
-    {
-      "type": "DrawRegion",
-      "suffix": "-top",
-      "rotateSpeed": 5
+      "type": "DrawFlame"
     }
   ],
   "outputItem": "Radioalloy/2",
   "category": "crafting",
-  "research": "plastaniumCompressor",
   "ambientSound": "power/NuclearFurnace",
   "ambientSoundVolume": 0.75,
   "research":{

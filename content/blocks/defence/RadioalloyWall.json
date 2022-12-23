@@ -7,12 +7,12 @@
     "lightningLength": 20,
     "lightningColor": "775A54",
     "absorbLasers": true,
-    "buildCostMultiplier": 0.75,
+    "buildCostMultiplier": 1.25,
     "requirements": [
       "Radioalloy/10",
-      "thorium/1",
+      "thorium/1"
     ],
     "category": "defense",
-    "research": "thorium-wall"
+    "research": "Radioalloy"
     }
     

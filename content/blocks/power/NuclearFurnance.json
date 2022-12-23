@@ -4,16 +4,16 @@
     "buildCostMultiplier": 0.75,
     "size": 2,
     "health": 400,
-    "hasLiquids": false,
     "powerProduction": 5,
     "warmupSpeed": 0.005,
     "consume":{
-      "items":[
+      "items":{
+        "items":[
         "Uranium/1"
       ]
+    }
     },
     "category": "power",
-    "research": "differentialGenerator",
     "ambientSound": "power/NuclearFurnace",
     "ambientSoundVolume": 0.5,
     "research":{
@@ -39,13 +39,13 @@
         "type": "DrawDefault"
       },
       {
-        "type": "DrawWarmupRegion"
-      },
-      {
         "type": "DrawRegion",
         "suffix": "-top",
         "rotateSpeed": 5
+      },
+      {
+        "type": "DrawWarmupRegion"
       }
     ]
-  }
+}
   
