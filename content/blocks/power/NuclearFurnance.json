@@ -4,14 +4,10 @@
     "buildCostMultiplier": 0.75,
     "size": 2,
     "health": 400,
-    "powerProduction": 5,
+    "powerProduction": 7,
     "warmupSpeed": 0.005,
-    "consume":{
-      "items":{
-        "items":[
-        "Uranium/1"
-      ]
-    }
+    "consumes":{
+      "itemRadioactive":{}
     },
     "category": "power",
     "ambientSound": "power/NuclearFurnace",
@@ -40,8 +36,7 @@
       },
       {
         "type": "DrawRegion",
-        "suffix": "-top",
-        "rotateSpeed": 5
+        "suffix": "-top"
       },
       {
         "type": "DrawWarmupRegion"
