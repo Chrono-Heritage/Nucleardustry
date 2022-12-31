@@ -10,21 +10,21 @@
     "craftTime": 60,
     "buildCostMultiplier": 0.5,
     "consumes": {
-      "power": 1.25,
+      "power": 1.1,
       "items": {
         "items": [
-          "thorium/1"
+          "thorium/2"
         ]
       },
       "liquids":{
         "liquids": [
-          "water/0.08"
+          "water/0.1"
         ]
       }
     },
     "outputLiquid": "RadioactiveSolution/0.1",
     "category": "crafting",
-    "ambientSound": "power/NuclearFurnace",
+    "ambientSound": "power/GeigerCounter",
     "ambientSoundVolume": 0.75,
     "research":{
       "parent": "Nucleardustry",

@@ -1,7 +1,6 @@
 {
-    "type": "metals",
     "color": "FF0000",
-    "radioactivity": 1.50,
+    "radioactivity": 0.9,
     "hardness": 4,
     "research": "Uranium"
 }

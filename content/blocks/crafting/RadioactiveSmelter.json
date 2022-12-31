@@ -1,14 +1,14 @@
 {
   "type": "GenericCrafter",
   "itemCapacity": 60,
-  "health": 750,
+  "health": 650,
   "size": 3,
   "hasPower": true,
   "hasItems": true,
   "craftTime": 75,
   "buildCostMultiplier": 0.5,
   "consumes": {
-    "power": 2.5,
+    "power": 1.75,
     "items": {
       "items": [
         "thorium/1",
@@ -22,12 +22,16 @@
       "type": "DrawDefault"
     },
     {
+      "type": "DrawRegion",
+      "suffix": "-top"
+    },
+    {
       "type": "DrawFlame"
     }
   ],
   "outputItem": "Radioalloy/2",
   "category": "crafting",
-  "ambientSound": "power/NuclearFurnace",
+  "ambientSound": "power/GeigerCounter",
   "ambientSoundVolume": 0.75,
   "research":{
     "parent": "Uranium",

@@ -1,21 +1,22 @@
 {
     "type": "ConsumeGenerator",
-    "itemDuration": 1200,
+    "itemDuration": 1080,
     "buildCostMultiplier": 0.75,
     "size": 2,
-    "health": 400,
-    "powerProduction": 7,
+    "health": 450,
+    "powerProduction": 5.5,
     "warmupSpeed": 0.005,
     "consumes":{
       "itemRadioactive":{}
     },
     "category": "power",
-    "ambientSound": "power/NuclearFurnace",
+    "ambientSound": "power/GeigerCounter",
     "ambientSoundVolume": 0.5,
     "research":{
       "parent": "Uranium",
       "requirements":[
           "copper/2500",
+          "lead/2250",
           "silicon/1000",
           "metaglass/500",
           "titanium/350",
@@ -24,11 +25,13 @@
       ]
     },
     "requirements": [
-      "copper/60",
-      "titanium/40",
-      "lead/35",
+      "copper/100",
+      "lead/75",
+      "titanium/55",
       "metaglass/30",
-      "silicon/20"
+      "silicon/20",
+      "thorium/20",
+      "Uranium/20"
     ],
     "drawer": [
       {

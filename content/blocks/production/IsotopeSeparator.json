@@ -1,0 +1,67 @@
+{
+    "type": "Separator",
+    "itemCapacity": 60,
+    "health": 750,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": false,
+    "craftTime": 45,
+    "buildCostMultiplier": 0.35,
+    "logicConfigurable": true,
+    "consumes": {
+      "power": 2.0,
+      "items":{
+        "items": [
+          "Uranium/1"
+        ]
+      }
+    },
+
+    "results": [
+          "Uranium235/1",
+          "Uranium238/3"
+    ],
+    "category": "crafting",
+    "ambientSound": "power/NuclearFurnace",
+    "ambientSoundVolume": 0.75,
+    "research":{
+      "parent": "RadioactiveSmelter",
+      "requirements":[
+          "copper/3250",
+          "lead/2750",
+          "graphite/1500",
+          "metaglass/750",
+          "titanium/450",
+          "thorium/300",
+          "Uranium/300"
+      ]
+    },
+    "requirements": [
+      "copper/350",
+      "lead/275",
+      "graphite/150",
+      "metaglass/100",
+      "titanium/75",
+      "thorium/65",
+      "Uranium/65"
+    ],
+    "drawer": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-spinner",
+        "rotateSpeed": 3
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-top"
+      }
+    ]
+  }

@@ -1,0 +1,55 @@
+{
+    "type": "GenericCrafter",
+    "itemCapacity": 60,
+    "health": 450,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 120,
+    "buildCostMultiplier": 0.65,
+    "consumes": {
+      "power": 2.0,
+      "items": {
+        "items": [
+          "metaglass/4",
+          "Uranium235/2",
+          "Uranium238/16"
+        ]
+      }
+    },
+    "drawer": [
+      {
+        "type": "DrawDefault"
+      },      
+      {
+        "type": "DrawRegion",
+        "suffix":"-top"
+      },
+      {
+        "type": "DrawFlame"
+      }
+    ],
+    "outputItem": "UraniumFuel/1",
+    "category": "crafting",
+    "ambientSound": "power/GeigerCounter",
+    "ambientSoundVolume": 0.75,
+    "research":{
+      "parent": "IsotopeSeparator",
+      "requirements":[
+          "copper/2500",
+          "graphite/1000",
+          "metaglass/750",
+          "titanium/550",
+          "Uranium235/250",
+          "Uranium238/250"
+      ]
+    },
+    "requirements": [
+      "copper/200",
+      "graphite/75",
+      "metaglass/50",
+      "titanium/45",
+      "Uranium235/20",
+      "Uranium238/20"
+    ]
+  }

@@ -1,6 +1,4 @@
 {
-    "name": "Nucleardustry",
-    "description": "The symbol of Nucleardustry, it means the start of the Nucleardustry tech tree.",
     "type": "Wall",
     "health": 10,
     "size": 2,
@@ -9,7 +7,7 @@
     ],
     "category": "defense",
     "research":{
-        "parent": "duo",
+        "parent": "thorium",
         "requirements":[
             "thorium/10"
         ]
