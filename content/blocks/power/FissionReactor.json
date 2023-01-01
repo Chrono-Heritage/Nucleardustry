@@ -28,7 +28,7 @@
   "ambientSound": "power/GeigerCounter",
   "ambientSoundVolume": 0.5,
   "research":{
-    "parent": "NuclearFurnace",
+    "parent": "NuclearFurnance",
     "requirements":[
         "copper/5000",
         "lead/4500",
