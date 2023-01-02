@@ -23,7 +23,7 @@
           "Uranium238/3"
     ],
     "category": "crafting",
-    "ambientSound": "power/NuclearFurnace",
+    "ambientSound": "power/GeigerCounter",
     "ambientSoundVolume": 0.75,
     "research":{
       "parent": "RadioactiveSmelter",
