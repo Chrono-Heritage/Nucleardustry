@@ -5,7 +5,7 @@
   "size": 5,
   "health": 1600,
   "itemCapacity": 1,
-  "powerProduction": 25,
+  "powerProduction": 50,
   "fuelItem": "UraniumFuel",
   "consumes": {
     "items": {
@@ -28,7 +28,7 @@
   "ambientSound": "power/GeigerCounter",
   "ambientSoundVolume": 0.5,
   "research":{
-    "parent": "NuclearFurnance",
+    "parent": "NuclearFurnace",
     "requirements":[
         "copper/5000",
         "lead/4500",

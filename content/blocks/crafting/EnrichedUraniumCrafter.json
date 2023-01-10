@@ -11,29 +11,20 @@
       "power": 2.0,
       "items": {
         "items": [
-          "metaglass/2",
-          "UraniumEnriched/4"
+          "Uranium235/1",
+          "Uranium238/4"
         ]
       }
     },
-    "drawer": [
-      {
-        "type": "DrawDefault"
-      },      
-      {
-        "type": "DrawRegion",
-        "suffix":"-top"
-      },
-      {
-        "type": "DrawFlame"
-      }
+    "outputItems": [
+      "UraniumEnriched/2",
+      "UraniumDepleted/1"
     ],
-    "outputItem": "UraniumFuel/1",
     "category": "crafting",
     "ambientSound": "power/GeigerCounter",
     "ambientSoundVolume": 0.75,
     "research":{
-      "parent": "EnrichedUraniumCrafter",
+      "parent": "IsotopeSeparator",
       "requirements":[
           "copper/2500",
           "graphite/1000",
@@ -50,5 +41,17 @@
       "titanium/45",
       "Uranium235/20",
       "Uranium238/20"
+    ],
+    "drawer": [
+      {
+        "type": "DrawDefault"
+      },      
+      {
+        "type": "DrawRegion",
+        "suffix":"-top"
+      },
+      {
+        "type": "DrawFlame"
+      }
     ]
   }

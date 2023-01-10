@@ -2,14 +2,14 @@
     "type": "ItemTurret",
     "health": 450,
     "size": 2,
-    "reload": 30,
+    "reload": 80,
     "maxammo":20,
     "range": 256,
     "rotateSpeed": 10,
     "shootSound": "lasershoot",
     "recoil": 5,
     "shootCone": 30,
-    "ammoPerShot": 2,
+    "ammoPerShot": 4,
     "buildCostMultiplier": 0.5,
     "shoot":{
         "type": "ShootSpread",
@@ -20,36 +20,39 @@
         "thorium": {
             "type": "ShrapnelBulletType",
             "length": 342,
-            "damage": 200,
-            "ammoMultiplier": 2.0,
+            "damage": 115,
+            "ammoMultiplier": 1.0,
             "width": 15,
             "knockback": 0.5,
             "status": "burning",
             "statusDuration": 600,
-            "toColor": "DC143C"
+            "toColor": "DC143C",
+            "pierceCap": 2
             
         },
         "Uranium": {
             "type": "ShrapnelBulletType",
             "length": 342,
-            "damage": 350,
-            "ammoMultiplier": 1.0,
+            "damage": 135,
+            "ammoMultiplier": 2.0,
             "width": 25,
             "knockback": 0.75,
             "status": "burning",
             "statusDuration": 900,
-            "toColor":"33BE31"
+            "toColor":"33BE31",
+            "pierceCap": 3
         },
         "Plutonium": {
             "type": "ShrapnelBulletType",
             "length": 342,
-            "damage": 400,
+            "damage": 175,
             "width": 40,
-            "ammoMultiplier": 1.0,
+            "ammoMultiplier": 2.0,
             "knockback": 1.0,
             "status": "burning",
             "statusDuration": 1200,
-            "toColor":"DC143C"
+            "toColor":"DC143C",
+            "pierceCap": 5
         }
     },
     "category": "turret",
