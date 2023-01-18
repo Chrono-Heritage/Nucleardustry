@@ -2,7 +2,7 @@
     "type": "Wall",
     "health": 5000,
     "size": 2,
-    "lightningChance": 0.45,
+    "lightningChance": 0.25,
     "lightningDamage": 75,
     "lightningLength": 20,
     "lightningColor": "775A54",

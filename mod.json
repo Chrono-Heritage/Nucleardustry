@@ -1,8 +1,8 @@
 {
-"name": "chronos-nucleardustry",
+"name": "chrono-nucleardustry",
 "displayName": "Nucleardustry",
-"author": "Chronos",
+"author": "Chrono",
 "description": "A mod that add nuclear related items and blocks.",
-"version": "1.1 beta v2",
+"version": "1.1 release",
 "minGameVersion": "140.4"
 }

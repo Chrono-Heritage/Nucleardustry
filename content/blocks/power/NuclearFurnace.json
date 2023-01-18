@@ -4,7 +4,8 @@
     "buildCostMultiplier": 0.75,
     "size": 2,
     "health": 450,
-    "powerProduction": 6.0,
+    "powerProduction": 5.5,
+    "warmupSpeed": 0.005,
     "consumes":{
       "itemRadioactive":{}
     },
