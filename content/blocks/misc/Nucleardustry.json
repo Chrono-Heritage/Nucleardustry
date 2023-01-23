@@ -2,6 +2,7 @@
     "type": "Wall",
     "health": 10,
     "size": 2,
+    "placeablePlayer": false,
     "requirements": [
       "thorium/1"
     ],

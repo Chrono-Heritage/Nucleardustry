@@ -18,7 +18,7 @@
         },
     "ammoTypes": {
         "lead": {
-            "lifetime": 30,
+            "lifetime": 10,
             "width": 7,
             "height": 15,
             "damage": 10,
@@ -26,7 +26,7 @@
             "ammoMultiplier": 2
         },
         "metaglass": {
-            "lifetime": 30,
+            "lifetime": 10,
             "width": 7,
             "height": 15,
             "damage": 15,
@@ -34,18 +34,28 @@
             "ammoMultiplier": 4
         },
         "UraniumDepleted": {
-            "lifetime": 30,
+            "lifetime": 10,
             "width": 7,
             "height": 15,
             "damage": 20,
             "speed": 30,
+            "ammoMultiplier": 4
+        },
+        "UraniumDepletedAmmo": {
+            "lifetime": 10,
+            "width": 7,
+            "height": 15,
+            "damage": 30,
+            "speed": 30,
             "pierceArmor": true,
+            "status": "burning",
+            "statusDuration": 300,
             "ammoMultiplier": 4
         }
     },
     "category": "turret",
     "research":{
-        "parent": "Uranium",
+        "parent": "Nucleardustry",
         "requirements":[
             "copper/1250",
             "lead/1050",

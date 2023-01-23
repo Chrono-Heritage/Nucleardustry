@@ -1,6 +1,5 @@
 {
-    "color": "32CD32",
-    "radioactivity": 0.15,
-    "hardness": 4,
+    "color": "218A21",
+    "radioactivity": 0.25,
     "research": "UraniumEnriched"
 }

@@ -13,7 +13,7 @@
     "ambientSound": "power/GeigerCounter",
     "ambientSoundVolume": 0.5,
     "research":{
-      "parent": "Uranium",
+      "parent": "Nucleardustry",
       "requirements":[
           "copper/2500",
           "lead/2250",

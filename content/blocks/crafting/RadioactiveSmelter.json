@@ -34,7 +34,7 @@
   "ambientSound": "power/GeigerCounter",
   "ambientSoundVolume": 0.75,
   "research":{
-    "parent": "Uranium",
+    "parent": "RadioactiveSeparator",
     "requirements":[
         "copper/2500",
         "silicon/1000",

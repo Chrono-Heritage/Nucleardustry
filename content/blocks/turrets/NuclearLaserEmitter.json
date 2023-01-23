@@ -57,7 +57,7 @@
     },
     "category": "turret",
     "research":{
-        "parent": "Uranium",
+        "parent": "DepletedUraniumRifle",
         "requirements":[
             "copper/2500",
             "lead/1500",

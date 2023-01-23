@@ -25,7 +25,7 @@
   "explosionDamage": 5192,
   "explodeSound": "power/ReactorExplode",
   "category": "power",
-  "ambientSound": "power/GeigerCounter",
+  "ambientSound": "power/FissionReactor",
   "ambientSoundVolume": 0.5,
   "research":{
     "parent": "NuclearFurnace",
