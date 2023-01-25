@@ -31,6 +31,8 @@
             "height": 15,
             "damage": 15,
             "speed": 40,
+            "splashDamage": 10,
+            "splashDamageRadius": 20,
             "ammoMultiplier": 4
         },
         "UraniumDepleted": {
