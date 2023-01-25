@@ -7,9 +7,9 @@
     "range": 196,
     "rotateSpeed": 10,
     "inaccuracy": 2,
-    "recoil": 5,
-    "shootSound": "shootAlt",
-    "shootCone": 30,
+    "recoil": 3,
+    "shootSound": "Turrets/uraTurret",
+    "shootCone": 10,
     "buildCostMultiplier": 0.85,
     "shoot":{
         "type": "ShootSpread",
