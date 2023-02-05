@@ -1,0 +1,31 @@
+{
+    "type": "Fracker",
+    "liquidCapacity": 120,
+    "health": 450,
+    "size": 2,
+    "hasItems": false,
+    "hasPower": true,
+    "hasLiquids": true,
+    "pumpAmount": 0.05,
+    "consumes": {
+      "power": 0.9
+    },
+    "attribute": "water",
+    "result": "HeavyWater",
+    "category": "production",
+    "research":{
+      "parent": "Nucleardustry",
+      "requirements":[
+          "copper/2500",
+          "graphite/1000",
+          "metaglass/750",
+          "titanium/550"
+      ]
+    },
+    "requirements": [
+      "copper/200",
+      "graphite/75",
+      "metaglass/50",
+      "titanium/45"
+    ]
+}

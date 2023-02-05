@@ -1,0 +1,48 @@
+{
+  "type": "GenericCrafter",
+  "itemCapacity": 60,
+  "health": 450,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 120,
+  "buildCostMultiplier": 0.95,
+  "requiresWater": true,
+  "consumes": {
+    "power": 0.5
+    },
+  "outputItem": "Salt/2",
+  "category": "production",
+  "research":{
+    "parent": "Nucleardustry",
+    "requirements":[
+        "copper/2500",
+        "silicon/1000",
+        "metaglass/750"
+    ]
+  },
+  "requirements": [
+    "copper/150",
+    "silicon/75",
+    "metaglass/50"
+  ],
+  "drawer": [
+    {
+        "type": "DrawRegion",
+        "suffix":"-bottom"
+    },
+    {
+        "type": "DrawRegion",
+        "suffix":"-spinner",
+        "rotateSpeed": 5
+    },
+    {
+      "type": "DrawDefault"
+    },      
+    {
+      "type": "DrawRegion",
+      "suffix":"-top"
+    }
+  ]
+}

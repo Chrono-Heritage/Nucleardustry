@@ -6,7 +6,7 @@
     "hasPower": true,
     "hasItems": true,
     "craftTime": 120,
-    "buildCostMultiplier": 0.65,
+    "buildCostMultiplier": 0.85,
     "consumes": {
       "power": 1.25,
       "items": {
