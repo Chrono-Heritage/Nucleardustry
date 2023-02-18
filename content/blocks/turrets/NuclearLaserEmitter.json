@@ -20,11 +20,11 @@
         "thorium": {
             "type": "ShrapnelBulletType",
             "length": 342,
-            "damage": 65,
+            "damage": 270,
             "ammoMultiplier": 1.0,
             "width": 13,
             "knockback": 0.5,
-            "status": "burning",
+            "status": "Radiation",
             "statusDuration": 600,
             "toColor": "DC143C",
             "pierceCap": 2
@@ -33,11 +33,11 @@
         "Uranium": {
             "type": "ShrapnelBulletType",
             "length": 342,
-            "damage": 80,
+            "damage": 360,
             "ammoMultiplier": 2.0,
             "width": 17,
             "knockback": 0.75,
-            "status": "burning",
+            "status": "Radiation",
             "statusDuration": 900,
             "toColor":"33BE31",
             "pierceCap": 3
@@ -45,11 +45,11 @@
         "Plutonium": {
             "type": "ShrapnelBulletType",
             "length": 342,
-            "damage": 105,
+            "damage": 425,
             "width": 20,
             "ammoMultiplier": 2.0,
             "knockback": 1.0,
-            "status": "burning",
+            "status": "Radiation",
             "statusDuration": 1200,
             "toColor":"DC143C",
             "pierceCap": 5

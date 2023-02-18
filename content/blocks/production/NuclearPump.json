@@ -1,0 +1,32 @@
+{
+    "type": "Pump",
+    "itemCapacity": 60,
+    "liquidCapacity": 120,
+    "health": 650,
+    "size": 3,
+    "buildCostMultiplier": 0.35,
+    "hasPower": true,
+    "hasLiquids": true,
+    "pumpAmount": 0.4,
+    "consumes":{
+        "power": 2.0,
+        "itemRadioactive":{}
+      },
+    "consumeTime": 180,
+    "category": "liquid",
+    "research":{
+        "parent": "Nucleardustry",
+        "requirements":[
+          "copper/5000",
+          "graphite/4500",
+          "silicon/3500",
+          "Uranium/1500"
+      ]
+      },
+      "requirements": [
+        "copper/500",
+        "graphite/450",
+        "silicon/350",
+        "Uranium/100"
+      ]
+}

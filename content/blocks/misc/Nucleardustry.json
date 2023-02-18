@@ -8,7 +8,7 @@
     ],
     "category": "defense",
     "research":{
-        "parent": "thorium",
+        "parent": "core-shard",
         "requirements":[
             "thorium/10"
         ]

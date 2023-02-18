@@ -3,6 +3,7 @@
     "liquidCapacity": 120,
     "health": 450,
     "size": 2,
+    "buildCostMultiplier": 0.75,
     "hasItems": false,
     "hasPower": true,
     "hasLiquids": true,

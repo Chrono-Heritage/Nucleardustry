@@ -1,11 +1,10 @@
 {
     "type": "ConsumeGenerator",
     "itemDuration": 1080,
-    "buildCostMultiplier": 0.75,
+    "buildCostMultiplier": 0.85,
     "size": 2,
     "health": 450,
-    "powerProduction": 5.5,
-    "warmupSpeed": 0.005,
+    "powerProduction": 6.5,
     "consumes":{
       "itemRadioactive":{}
     },
@@ -17,10 +16,8 @@
       "requirements":[
           "copper/2500",
           "lead/2250",
-          "silicon/1000",
-          "metaglass/500",
-          "titanium/350",
-          "thorium/250",
+          "titanium/1000",
+          "silicon/350",
           "Uranium/250"
       ]
     },
@@ -28,9 +25,7 @@
       "copper/100",
       "lead/75",
       "titanium/55",
-      "metaglass/30",
-      "silicon/20",
-      "thorium/20",
+      "silicon/30",
       "Uranium/20"
     ],
     "drawer": [

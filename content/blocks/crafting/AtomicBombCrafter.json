@@ -11,6 +11,7 @@
     [
     {
       "input": {
+        "power": 3.0,
         "items": [
         "chrono-nucleardustry-UraniumEnriched/20",
         "blast-compound/8",
@@ -27,6 +28,7 @@
     },
     {
       "input": {
+        "power": 3.0,
         "items": [
           "chrono-nucleardustry-Plutonium239/16",
           "blast-compound/8",
@@ -64,16 +66,31 @@
       "titanium/45",
       "UraniumEnriched/20"
     ],
-    "drawer": [
+    "defaultDrawer": 1,
+  "drawer": {
+    "type": "multicraft.DrawRecipe",
+    "drawers": [
       {
-        "type": "DrawDefault"
-      },      
-      {
-        "type": "DrawRegion",
-        "suffix":"-top"
+      "type": "DrawMulti",
+      "drawers": [
+        {
+          "type": "DrawRegion",
+          "suffix":"-1"
+        },
+        {
+          "type": "DrawRegion",
+          "suffix":"-top"
+        }
+      ]
       },
       {
-        "type": "DrawFlame"
+        "type": "DrawRegion",
+        "suffix":"-2"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-3"
       }
     ]
   }
+}

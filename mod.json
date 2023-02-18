@@ -2,10 +2,10 @@
     "name": "chrono-nucleardustry",
     "displayName": "Nucleardustry",
     "author": "Chrono",
-    "description": "A mod that add nuclear related items and blocks. Need Multi Crafter Lib in v.1.2 beta v2 or over!",
+    "description": "A mod that add nuclear related items and blocks. Need Multi Crafter Lib in v.1.2 or above!",
     "dependencies": [
         "multi-crafter"
     ],
-    "version": "v.1.2 beta v2",
+    "version": "v.1.2 release",
     "minGameVersion": "140.4"
     }

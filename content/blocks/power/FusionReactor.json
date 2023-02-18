@@ -1,0 +1,57 @@
+{
+    "type": "ImpactReactor",
+    "itemCapacity": 60,
+    "fluidCapacity": 120,
+    "health": 1600,
+    "size": 4,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "itemDuration": 180,
+    "buildCostMultiplier": 0.35,
+    "warmupSpeed": 0.1,
+    "consumes":{
+      "power": 165,
+      "liquids": [
+        "Tritium/0.05",
+        "Deuterium/0.05"
+      ]
+    },
+    "powerProduction": 325,
+    "category": "power",
+    "ambientSound": "pulse",
+    "ambientSoundVolume": 0.75,
+    "research":{
+      "parent": "AtomicBombCrafter",
+      "requirements":[
+        "copper/5000",
+        "lead/4500",
+        "titanium/3500",
+        "metaglass/3000",
+        "silicon/2500",
+        "graphite/2500",
+        "thorium/1500"
+    ]
+    },
+    "requirements": [
+      "copper/500",
+      "lead/450",
+      "titanium/350",
+      "metaglass/300",
+      "silicon/250",
+      "graphite/250",
+      "thorium/100"
+    ],
+    "drawer": [
+      {
+        "type": "DrawRegion",
+        "suffix":"-bottom"
+      },
+      {
+        "type": "DrawPlasma"
+      },      
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }

@@ -8,13 +8,12 @@
   "hasItems": true,
   "hasLiquids": true,
   "craftTime": 60,
-  "buildCostMultiplier": 1.25,
   "recipes": 
   [
   {
     "input": {
-      "items": [
-      "chrono-nucleardustry-Uranium/3"
+    "items":[
+      "chrono-nucleardustry-Salt/1"
     ],
     "fluids": [
       "chrono-nucleardustry-HeavyWater/0.1"
@@ -22,18 +21,17 @@
   },
     "output": {
       "fluids": [
-          "chrono-nucleardustry-Tritium/0.1"
+          "chrono-nucleardustry-Deuterium/0.1"
       ],
       "power": 6.5
     },
     "craftTime": 150
   }
   ],
-  "category": "power",
-  "ambientSound": "power/GeigerCounter",
+  "category": "crafting",
   "ambientSoundVolume": 0.75,
   "research":{
-    "parent": "NuclearFurnace",
+    "parent": "SaltExtractor",
     "requirements":[
         "copper/2500",
         "graphite/1000",

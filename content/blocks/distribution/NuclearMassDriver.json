@@ -1,0 +1,38 @@
+{
+    "type": "MassDriver",
+    "itemCapacity": 240,
+    "liquidCapacity": 120,
+    "health": 750,
+    "size": 3,
+    "buildCostMultiplier": 0.4,
+    "hasPower": true,
+    "hasItems": true,
+    "range": 880,
+    "rotateSpeed": 20,
+    "bulletSpeed": 11.0,
+    "bulletLifetime": 300,
+    "shake": 1.0,
+    "minDistribute": 1,
+    "consumes":{
+        "power": 3.0,
+        "liquids":[
+          "RadioactiveSolution/0.01"
+        ]
+      },
+    "category": "distribution",
+    "research":{
+        "parent": "Nucleardustry",
+        "requirements":[
+          "copper/5000",
+          "graphite/4500",
+          "silicon/3500",
+          "Uranium/1500"
+      ]
+      },
+      "requirements": [
+        "copper/500",
+        "graphite/450",
+        "silicon/350",
+        "Uranium/100"
+      ]
+}

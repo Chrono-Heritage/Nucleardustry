@@ -5,7 +5,7 @@
   "size": 5,
   "health": 1600,
   "itemCapacity": 1,
-  "powerProduction": 50,
+  "powerProduction": 100,
   "fuelItem": "UraniumFuel",
   "consumes": {
     "items": {
@@ -32,25 +32,19 @@
     "requirements":[
         "copper/5000",
         "lead/4500",
-        "titanium/3500",
         "metaglass/3000",
         "silicon/2500",
-        "graphite/2500",
         "thorium/1500",
-        "Uranium/1500",
-        "Plutonium/1500"
+        "Uranium/1500"
     ]
   },
   "requirements": [
     "copper/500",
     "lead/450",
-    "titanium/350",
     "metaglass/300",
     "silicon/250",
-    "graphite/250",
     "thorium/100",
-    "Uranium/100",
-    "Plutonium/100"
+    "Uranium/100"
   ],
   "drawer": [
     {
