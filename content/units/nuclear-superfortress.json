@@ -1,0 +1,152 @@
+{
+    "type":"flying",
+    "health": 12500,
+    "mass": 12,
+    "flying":true,
+    "speed": 2.0,
+    "armor": 12,
+    "accel": 0.5,
+    "drag": 0.017,
+    "hitSize": 52,
+    "targetAir": true,
+    "targetGround": true,
+    "circleTarget": false,
+    "rotateSpeed": 2,
+    "weapons": [
+        {
+            "shoot":{
+                "type": "ShootSpread",
+                "shots": 1,
+                "spread": 1
+                },
+            "x": -10,
+            "y": -5,
+            "mirror": true,
+            "rotate": false,
+            "reload": 5,
+            "recoil": 5,
+            "shake": 0,
+            "lifetime": 33,
+            "bullet": {
+                "type": "BasicBulletType",
+                    "height": 14,
+                    "width": 8,
+                    "inaccuracy": 1,
+                    "speed": 20,
+                    "lifetime": 12,
+                    "damage": 22,
+                    "shootEffect": "shootSmall",
+                    "smokeEffect": "shootSmallSmoke",
+                    "frontColor": "249624",
+                    "backColor": "218A21",
+                    "lightColor": "32CD32",
+                    "collidesTeam": false,
+                    "pierceArmor": true
+            },
+            "shootSound": "shootAlt"
+        },
+        {
+            "shoot":{
+                "type": "ShootSpread",
+                "shots": 1,
+                "spread": 1
+                },
+            "x": 30,
+            "y": 0,
+            "mirror": true,
+            "rotate": false,
+            "reload": 5,
+            "recoil": 5,
+            "shake": 0,
+            "lifetime": 33,
+            "bullet": {
+                "type": "BasicBulletType",
+                    "height": 14,
+                    "width": 8,
+                    "inaccuracy": 1,
+                    "speed": 20,
+                    "lifetime": 12,
+                    "damage": 22,
+                    "shootEffect": "shootSmall",
+                    "smokeEffect": "shootSmallSmoke",
+                    "frontColor": "249624",
+                    "backColor": "218A21",
+                    "lightColor": "32CD32",
+                    "collidesTeam": false,
+                    "pierceArmor": true
+            },
+            "shootSound": "shootAlt"
+        },
+        {
+            "shoot":{
+                "type": "ShootSpread",
+                "shots": 1,
+                "spread": 0
+                },
+            "y": 0,
+            "x": 5,
+            "mirror": false,
+            "rotate": true,
+            "reload": 45,
+            "recoil": 5,
+            "shake": 0,
+            "bullet": {
+                "type": "LaserBulletType",
+                    "length": 250,
+                    "width": 25,
+                    "damage": 120,
+                    "sideAngle": 20,
+                    "sideWidth": 1.5,
+                    "sideLength": 10,
+                    "shootEffect": "shockwave",
+                    "pierceArmor": true,
+                    "colors": [
+                        "32CD32"
+                    ],
+                    "collidesTeam": false
+            },
+            "shootSound": "laser"
+        },
+        {
+            "shoot":{
+                "type": "ShootSpread",
+                "shots": 1,
+                "spread": 0
+                },
+            "y": 0,
+            "x": -5,
+            "mirror": true,
+            "rotate": true,
+            "reload": 45,
+            "recoil": 5,
+            "shake": 0,
+            "bullet": {
+                "type": "LaserBulletType",
+                    "length": 250,
+                    "width": 25,
+                    "damage": 120,
+                    "sideAngle": 20,
+                    "sideWidth": 1.5,
+                    "sideLength": 10,
+                    "shootEffect": "shockwave",
+                    "pierceArmor": true,
+                    "colors": [
+                        "32CD32"
+                    ],
+                    "collidesTeam": false
+            },
+            "shootSound": "laser"
+        }
+    ],
+    "research":{
+        "parent": "nuclear-unit-factory",
+        "requirements":[
+            "copper/3250",
+            "lead/2750",
+            "graphite/1250",
+            "titanium/1250",
+            "radioalloy/1000",
+            "uranium/1000"
+        ]
+      }
+}

@@ -1,0 +1,7 @@
+{
+    "type": "item",
+    "color": "FF0000",
+    "explosiveness": 1.75,
+    "flammability": 1.0,
+    "research": "plutonium-atomic-bomb"
+}

@@ -1,7 +1,0 @@
-{
-    "type": "atomic-bomb",
-    "color": "FF0000",
-    "explosiveness": 2.0,
-    "flammability": 1.0,
-    "research": "UraniumAtomicBomb"
-}

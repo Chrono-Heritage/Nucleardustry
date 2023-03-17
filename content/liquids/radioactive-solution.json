@@ -1,0 +1,9 @@
+{
+    "explosiveness": 0.75,
+    "temperature": 0.4,
+    "viscosity": 0.4,
+    "heatCapacity": 0.1,
+    "coolant": false,
+    "color": "B5C103",
+    "research": "Nucleardustry"
+}

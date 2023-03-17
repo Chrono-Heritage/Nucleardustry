@@ -1,0 +1,69 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "itemCapacity": 60,
+    "health": 650,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 1200,
+    "buildCostMultiplier": 0.85,
+    "recipes": 
+    [
+    {
+      "input": {
+        "items": [
+          "chrono-nucleardustry-plutonium239/10",
+          "blast-compound/4",
+          "graphite/20",
+          "titanium/30"
+      ],
+      "fluids": [
+        "chrono-nucleardustry-tritium/0.1",
+        "chrono-nucleardustry-deuterium/0.1"
+      ]
+    },
+      "output": {
+        "items": [
+          "chrono-nucleardustry-plutonium-atomic-bomb-boosted/1"
+        ]
+      },
+      "craftTime": 1200
+    }
+    ],
+    "category": "crafting",
+    "ambientSound": "power/GeigerCounter",
+    "ambientSoundVolume": 0.75,
+    "research":{
+      "parent": "atomic-bomb-crafter",
+      "requirements":[
+          "copper/2500",
+          "graphite/1000",
+          "silicon/1000",
+          "metaglass/750",
+          "titanium/550",
+          "uranium-enriched/250",
+          "plutonium/250"
+      ]
+    },
+    "requirements": [
+      "copper/200",
+      "graphite/75",
+      "silicon/75",
+      "metaglass/50",
+      "titanium/45",
+      "uranium-enriched/20",
+      "plutonium/20"
+    ],
+    "drawer": [
+      {
+        "type": "DrawDefault"
+      },      
+      {
+        "type": "DrawRegion",
+        "suffix":"-top"
+      },
+      {
+        "type": "DrawFlame"
+      }
+    ]
+  }

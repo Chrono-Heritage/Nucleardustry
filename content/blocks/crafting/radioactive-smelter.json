@@ -1,0 +1,55 @@
+{
+  "type": "GenericCrafter",
+  "itemCapacity": 60,
+  "health": 650,
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 75,
+  "buildCostMultiplier": 0.75,
+  "consumes": {
+    "power": 1.75,
+    "items": {
+      "items": [
+        "thorium/1",
+        "uranium/1",
+        "titanium/3"
+      ]
+    }
+  },
+  "drawer": [
+    {
+      "type": "DrawDefault"
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-top"
+    },
+    {
+      "type": "DrawFlame"
+    }
+  ],
+  "outputItem": "radioalloy/2",
+  "category": "crafting",
+  "ambientSound": "power/GeigerCounter",
+  "ambientSoundVolume": 0.75,
+  "research":{
+    "parent": "radioactive-separator",
+    "requirements":[
+        "copper/2500",
+        "silicon/1000",
+        "metaglass/500",
+        "titanium/350",
+        "thorium/250",
+        "uranium/250"
+    ]
+  },
+  "requirements": [
+    "copper/200",
+    "silicon/75",
+    "metaglass/50",
+    "titanium/30",
+    "thorium/20",
+    "uranium/20"
+  ]
+}

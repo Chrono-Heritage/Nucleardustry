@@ -1,0 +1,66 @@
+{
+    "type": "Separator",
+    "itemCapacity": 60,
+    "health": 750,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": false,
+    "craftTime": 180,
+    "buildCostMultiplier": 0.35,
+    "consumes": {
+      "power": 1.95,
+      "items":{
+        "items": [
+          "uranium/1"
+        ]
+      }
+    },
+
+    "results": [
+          "uranium235/1",
+          "uranium238/4"
+    ],
+    "category": "crafting",
+    "ambientSound": "power/GeigerCounter",
+    "ambientSoundVolume": 0.75,
+    "research":{
+      "parent": "radioactive-smelter",
+      "requirements":[
+          "copper/3250",
+          "lead/2750",
+          "graphite/1500",
+          "metaglass/750",
+          "titanium/450",
+          "thorium/300",
+          "uranium/300"
+      ]
+    },
+    "requirements": [
+      "copper/350",
+      "lead/275",
+      "graphite/150",
+      "metaglass/100",
+      "titanium/75",
+      "thorium/65",
+      "uranium/65"
+    ],
+    "drawer": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-spinner",
+        "rotateSpeed": 3
+      },
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-top"
+      }
+    ]
+  }

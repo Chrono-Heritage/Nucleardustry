@@ -1,0 +1,68 @@
+{
+    "type": "multicraft.MultiCrafter",
+    "itemCapacity": 60,
+    "liquidCapacity": 120,
+    "health": 650,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "outputsPower": true,
+    "conductivePower": true,
+    "craftTime": 60,
+    "buildCostMultiplier": 1.15,
+    "recipes": 
+    [
+    {
+      "input": {
+        "items": [
+        "chrono-nucleardustry-uranium/3"
+      ],
+      "fluids": [
+        "chrono-nucleardustry-heavy-water/0.1"
+      ]
+    },
+      "output": {
+        "fluids": [
+            "chrono-nucleardustry-tritium/0.1"
+        ],
+        "power": 6.5
+      },
+      "craftTime": 150
+    }
+    ],
+    "category": "power",
+    "ambientSound": "power/GeigerCounter",
+    "ambientSoundVolume": 0.75,
+    "research":{
+      "parent": "nuclear-furnace",
+      "requirements":[
+          "copper/2500",
+          "graphite/1000",
+          "silicon/1000",
+          "metaglass/750",
+          "titanium/550",
+          "uranium/250"
+      ]
+    },
+    "requirements": [
+      "copper/200",
+      "graphite/75",
+      "silicon/75",
+      "metaglass/50",
+      "titanium/45",
+      "uranium/20"
+    ],
+    "drawer": [
+      {
+        "type": "DrawDefault"
+      },      
+      {
+        "type": "DrawRegion",
+        "suffix":"-top"
+      },
+      {
+        "type": "DrawFlame"
+      }
+    ]
+  }

@@ -1,0 +1,39 @@
+{
+    "type": "OverdriveProjector",
+    "itemCapacity": 60,
+    "liquidCapacity": 120,
+    "health": 750,
+    "size": 3,
+    "buildCostMultiplier": 0.45,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids": true,
+    "range": 200,
+    "consumes":{
+        "power": 3.0,
+        "itemRadioactive":{},
+        "liquids":[
+            "water/0.1"
+        ]
+      },
+    "phaseColor": "46C44E",
+    "baseColor": "46C44E",
+    "hasBoost": false,
+    "speedBoost": 2.0,
+    "category": "effect",
+    "research":{
+        "parent": "Nucleardustry",
+        "requirements":[
+          "copper/5000",
+          "lead/4500",
+          "titanium/3500",
+          "uranium/1500"
+      ]
+      },
+      "requirements": [
+        "copper/500",
+        "lead/450",
+        "titanium/350",
+        "uranium/100"
+      ]
+}

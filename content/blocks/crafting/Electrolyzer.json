@@ -13,15 +13,15 @@
   {
     "input": {
     "items":[
-      "chrono-nucleardustry-Salt/1"
+      "chrono-nucleardustry-salt/1"
     ],
     "fluids": [
-      "chrono-nucleardustry-HeavyWater/0.1"
+      "chrono-nucleardustry-heavyWater/0.1"
     ]
   },
     "output": {
       "fluids": [
-          "chrono-nucleardustry-Deuterium/0.1"
+          "chrono-nucleardustry-deuterium/0.1"
       ],
       "power": 6.5
     },
@@ -31,23 +31,19 @@
   "category": "crafting",
   "ambientSoundVolume": 0.75,
   "research":{
-    "parent": "SaltExtractor",
+    "parent": "salt-extractor",
     "requirements":[
         "copper/2500",
         "graphite/1000",
-        "silicon/1000",
         "metaglass/750",
-        "titanium/550",
-        "Uranium/250"
+        "titanium/550"
     ]
   },
   "requirements": [
     "copper/200",
     "graphite/75",
-    "silicon/75",
     "metaglass/50",
-    "titanium/45",
-    "Uranium/20"
+    "titanium/45"
   ],
   "drawer": [
     {

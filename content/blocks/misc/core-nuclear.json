@@ -1,0 +1,28 @@
+{
+    "type": "CoreBlock",
+    "unitType": "neutron",
+    "health": 12000,
+    "itemCapacity": 20000,
+    "size": 7,
+    "unitCapModifier": 32,
+    "category": "effect",
+    "research":{
+        "parent": "core-nucleus",
+        "requirements":[
+            "copper/22500",
+            "lead/17500",
+            "graphite/12500",
+            "silicon/12500",
+            "thorium/7500",
+            "uranium/7500"
+        ]
+      },
+      "requirements": [
+        "copper/7500",
+        "lead/5500",
+        "graphite/4500",
+        "silicon/4500",
+        "thorium/3500",
+        "uranium/2500"
+      ]
+}

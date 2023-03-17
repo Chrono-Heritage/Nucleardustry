@@ -1,0 +1,78 @@
+{
+    "type": "ItemTurret",
+    "health": 450,
+    "size": 2,
+    "reload": 80,
+    "maxammo":20,
+    "range": 256,
+    "rotateSpeed": 10,
+    "shootSound": "lasershoot",
+    "recoil": 5,
+    "shootCone": 30,
+    "ammoPerShot": 4,
+    "buildCostMultiplier": 0.5,
+    "shoot":{
+        "type": "ShootSpread",
+        "shots": 1,
+        "spread": 0
+        },
+    "ammoTypes": {
+        "thorium": {
+            "type": "ShrapnelBulletType",
+            "length": 342,
+            "damage": 270,
+            "ammoMultiplier": 1.0,
+            "width": 13,
+            "knockback": 0.5,
+            "status": "radiation",
+            "statusDuration": 600,
+            "toColor": "DC143C",
+            "pierceCap": 2
+            
+        },
+        "uranium": {
+            "type": "ShrapnelBulletType",
+            "length": 342,
+            "damage": 360,
+            "ammoMultiplier": 2.0,
+            "width": 17,
+            "knockback": 0.75,
+            "status": "radiation",
+            "statusDuration": 900,
+            "toColor":"33BE31",
+            "pierceCap": 3
+        },
+        "plutonium": {
+            "type": "ShrapnelBulletType",
+            "length": 342,
+            "damage": 425,
+            "width": 20,
+            "ammoMultiplier": 2.0,
+            "knockback": 1.0,
+            "status": "radiation",
+            "statusDuration": 1200,
+            "toColor":"DC143C",
+            "pierceCap": 5
+        }
+    },
+    "category": "turret",
+    "research":{
+        "parent": "depleted-uranium-rifle",
+        "requirements":[
+            "copper/2500",
+            "lead/1500",
+            "graphite/125",
+            "uranium/1250",
+            "thorium/1250",
+            "plutonium/1250"
+        ]
+      },
+    "requirements": [    
+        "copper/250",
+        "lead/150",
+        "graphite/125",
+        "uranium/75",
+        "thorium/75",
+        "plutonium/75"
+    ]
+}

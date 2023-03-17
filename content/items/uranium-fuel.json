@@ -1,0 +1,7 @@
+{
+    "type": "item",
+    "color": "32CD32",
+    "radioactivity": 1.125,
+    "explosiveness": 0.1,
+    "research": "uranium238"
+}

@@ -1,6 +1,7 @@
 {
+    "type": "item",
     "color": "FF0000",
     "radioactivity": 0.9,
     "hardness": 4,
-    "research": "Uranium"
+    "research": "uranium"
 }

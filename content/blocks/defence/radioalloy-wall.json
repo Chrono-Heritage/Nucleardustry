@@ -1,0 +1,18 @@
+{
+    "type": "Wall",
+    "health": 1250,
+    "size": 1,
+    "lightningChance": 0.1,
+    "lightningDamage": 40,
+    "lightningLength": 10,
+    "lightningColor": "775A54",
+    "absorbLasers": true,
+    "buildCostMultiplier": 1.25,
+    "requirements": [
+      "radioalloy/10",
+      "thorium/1"
+    ],
+    "category": "defense",
+    "research": "Nucleardustry"
+    }
+    

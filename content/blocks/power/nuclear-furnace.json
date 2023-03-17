@@ -1,0 +1,44 @@
+{
+    "type": "ConsumeGenerator",
+    "itemDuration": 1080,
+    "buildCostMultiplier": 0.85,
+    "size": 2,
+    "health": 450,
+    "powerProduction": 6.5,
+    "consumes":{
+      "itemRadioactive":{}
+    },
+    "category": "power",
+    "ambientSound": "power/GeigerCounter",
+    "ambientSoundVolume": 0.5,
+    "research":{
+      "parent": "Nucleardustry",
+      "requirements":[
+          "copper/2500",
+          "lead/2250",
+          "titanium/1000",
+          "silicon/350",
+          "uranium/250"
+      ]
+    },
+    "requirements": [
+      "copper/100",
+      "lead/75",
+      "titanium/55",
+      "silicon/30",
+      "uranium/20"
+    ],
+    "drawer": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawRegion",
+        "suffix": "-top"
+      },
+      {
+        "type": "DrawWarmupRegion"
+      }
+    ]
+}
+  

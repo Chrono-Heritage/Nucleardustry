@@ -1,0 +1,49 @@
+{
+    "type": "UnitFactory",
+    "health": 1200,
+    "size": 5,
+    "consumes": {
+        "power": 3.0
+    },
+    "plans": [
+        {
+            "unit": "nuclear-bomber",
+            "time": 1200,
+            "requirements": [
+                "copper/55",
+                "lead/30",
+                "graphite/30",
+                "radioalloy/25",
+                "uranium-atomic-bomb/2"
+            ]
+        },
+        {
+            "unit": "nuclear-superfortress",
+            "time": 3600,
+            "requirements": [
+                "copper/750",
+                "lead/550",
+                "graphite/450",
+                "titanium/450",
+                "radioalloy/400",
+                "uranium/400"
+            ]
+        }
+    ],
+    "category": "units",
+    "research":{
+        "parent": "Nucleardustry",
+        "requirements":[
+            "copper/2500",
+            "lead/1750",
+            "silicon/1000",
+            "thorium/500"
+        ]
+      },
+      "requirements": [
+        "copper/500",
+        "lead/450",
+        "silicon/250",
+        "thorium/100"
+      ]
+}

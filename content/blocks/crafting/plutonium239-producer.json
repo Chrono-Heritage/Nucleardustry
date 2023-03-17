@@ -1,0 +1,58 @@
+{
+    "type": "GenericCrafter",
+    "itemCapacity": 60,
+    "health": 450,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 300,
+    "buildCostMultiplier": 0.65,
+    "consumes": {
+      "power": 2.5,
+      "items": {
+        "items": [
+          "uranium238/2",
+          "uranium235/1"
+        ]
+      }
+    },
+    "outputItems": [
+      "plutonium239/2"
+    ],
+    "category": "crafting",
+    "ambientSound": "power/GeigerCounter",
+    "ambientSoundVolume": 0.75,
+    "research":{
+      "parent": "isotope-separator",
+      "requirements":[
+          "copper/2500",
+          "graphite/1000",
+          "silicon/1000",
+          "metaglass/750",
+          "titanium/550",
+          "uranium238/250",
+          "plutonium/250"
+      ]
+    },
+    "requirements": [
+      "copper/200",
+      "graphite/75",
+      "silicon/75",
+      "metaglass/50",
+      "titanium/45",
+      "uranium238/20",
+      "plutonium/20"
+    ],
+    "drawer": [
+      {
+        "type": "DrawDefault"
+      },      
+      {
+        "type": "DrawRegion",
+        "suffix":"-top"
+      },
+      {
+        "type": "DrawFlame"
+      }
+    ]
+  }

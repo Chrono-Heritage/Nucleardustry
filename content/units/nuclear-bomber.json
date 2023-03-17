@@ -1,0 +1,167 @@
+{
+    "type":"flying",
+    "health": 1250,
+    "mass": 8,
+    "flying":  true,
+    "speed": 3.5,
+    "armor": 6,
+    "accel": 0.5,
+    "drag": 0.017,
+    "hitSize": 42,
+    "targetAir": true,
+    "targetGround": true,
+    "circleTarget": false,
+    "rotateSpeed": 3,
+    "engineOffset": 19,
+    "weapons": [
+        {
+            "shoot":{
+                "type": "ShootSpread",
+                "shots": 1,
+                "spread": 0
+                },
+            "x": 0,
+            "y": 0,
+            "mirror": false,
+            "rotate": false,
+            "reload": 10800,
+            "recoil": 0,
+            "shake": 0,
+            "maxRange": 30,
+            "shootCone": 360,
+            "pierceArmor": true,
+            "ignoreRotation": true,
+            "bullet": {
+                "type": "BasicBulletType",
+                    "height": 35,
+                    "width": 35,
+                    "inaccuracy": 1,
+                    "speed": 0,
+                    "lifetime": 30,
+                    "keepVelocity": false,
+                    "sprite": "chrono-nucleardustry-nuclear-bomb",
+                    "hitEffect": "reactorExplosion",
+                    "lightColor": "000000",
+                    "shrinkX": 0,
+                    "shrinkY": 0,
+                    "damage": 2860,
+                    "splashDamage": 2860,
+                    "splashDamageRadius": 750,
+                    "collidesTeam": false,
+                    "collidesAir": true
+            },
+            "shootSound": "plasmadrop"
+        },
+        {
+            "shoot":{
+                "type": "ShootSpread",
+                "shots": 1,
+                "spread": 1
+                },
+            "x": 1,
+            "y": 18,
+            "mirror": true,
+            "rotate": false,
+            "reload": 5,
+            "recoil": 5,
+            "shake": 0,
+            "lifetime": 33,
+            "bullet": {
+                "type": "BasicBulletType",
+                    "height": 8,
+                    "width": 4,
+                    "inaccuracy": 1,
+                    "speed": 20,
+                    "lifetime": 12,
+                    "damage": 50,
+                    "shootEffect": "shootSmall",
+                    "smokeEffect": "shootSmallSmoke",
+                    "frontColor": "ffbf72",
+                    "backColor": "977143",
+                    "lightColor": "fabd72",
+                    "collidesTeam": false
+            },
+            "shootSound": "shootAlt"
+        },
+        {
+            "shoot":{
+                "type": "ShootSpread",
+                "shots": 2,
+                "spread": 3
+                },
+            "x": 9,
+            "y": 0,
+            "mirror": true,
+            "rotate": false,
+            "reload": 300,
+            "recoil": 5,
+            "shake": 0,
+            "bullet": {
+                    "type": "MissileBulletType",
+                    "trailColor": "FF7400",
+                    "frontColor": "FF9300",
+                    "backColor": "FFFFFF",
+                    "speed": 6,
+                    "damage": 60,
+                    "width": 2,
+                    "height": 9,
+                    "hitEffect": "blastExplosion",
+                    "lifetime": 40,
+                    "inaccuracy": 10,
+                    "homingRange": 200,
+                    "homingPower": 0.3,
+                    "splashDamage": 60,
+                    "splashDamageRadius": 30,
+                    "collidesTeam": false,
+                    "collideFloor": false,
+                    "collideTerrain": false
+            },
+            "shootSound": "missle"
+        },
+        {
+            "shoot":{
+                "type": "ShootSpread",
+                "shots": 2,
+                "spread": 3
+                },
+            "x": -9,
+            "y": 0,
+            "mirror": true,
+            "rotate": false,
+            "reload": 300,
+            "recoil": 5,
+            "shake": 0,
+            "bullet": {
+                    "type": "MissileBulletType",
+                    "trailColor": "FF7400",
+                    "frontColor": "FF9300",
+                    "backColor": "FFFFFF",
+                    "speed": 6,
+                    "damage": 60,
+                    "width": 2,
+                    "height": 9,
+                    "hitEffect": "blastExplosion",
+                    "lifetime": 40,
+                    "inaccuracy": 10,
+                    "homingRange": 200,
+                    "homingPower": 0.3,
+                    "splashDamage": 60,
+                    "splashDamageRadius": 30,
+                    "collidesTeam": false,
+                    "collideFloor": false,
+                    "collideTerrain": false
+            },
+            "shootSound": "missle"
+        }
+    ],
+    "research":{
+        "parent": "nuclear-unit-factory",
+        "requirements":[
+            "copper/2500",
+            "lead/1250",
+            "graphite/1250",
+            "radioalloy/750",
+            "thorium/450"
+        ]
+      }
+}

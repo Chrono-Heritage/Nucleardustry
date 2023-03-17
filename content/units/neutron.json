@@ -1,0 +1,64 @@
+{
+    "type":"flying",
+    "isEnemy": false,
+    "flying":true,
+    "mineSpeed": 12,
+    "mineTier": 3,
+    "buildSpeed": 1.25,
+    "speed": 4.0,
+    "rotateSpeed": 20,
+    "accel": 0.3,
+    "itemCapacity": 120,
+    "health": 300,
+    "hitSize": 12,
+    "armor": 2,
+    "drag": 0.1,
+    "circleTarget": false,
+    "engineOffset": 9,
+    "weapons": [
+        {
+            "shoot":{
+                "type": "ShootSpread",
+                "shots": 1,
+                "spread": 0
+                },
+            "x": 0,
+            "y": 5,
+            "mirror": false,
+            "rotate": false,
+            "continuous": true,
+            "reload": 90,
+            "recoil": 1,
+            "shake": 0,
+            "bullet": {
+                "type": "ContinuousLaserBulletType",
+                "lifetime": 180,
+                "length": 80,
+                "width": 3,
+                "damage": 2,
+                "status": "radiation",
+                "colors": [
+                    "32CD32",
+                    "32CD32",
+                    "32CD32",
+                    "32CD32"
+                ],
+                "buildingDamageMultiplier": 0.01,
+                "collidesTeam": false
+            },
+            "shootSound": "laser",
+            "loopSound": "beam"
+        }
+    ],
+    "research":{
+        "parent": "nuclear-unit-factory",
+        "requirements":[
+            "copper/3250",
+            "lead/2750",
+            "graphite/1250",
+            "titanium/1250",
+            "radioalloy/1000",
+            "uranium/1000"
+        ]
+      }
+}

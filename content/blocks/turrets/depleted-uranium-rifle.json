@@ -1,0 +1,71 @@
+{
+    "type": "ItemTurret",
+    "health": 450,
+    "size": 2,
+    "reload": 5,
+    "maxammo":100,
+    "range": 196,
+    "rotateSpeed": 10,
+    "inaccuracy": 2,
+    "recoil": 5,
+    "shootSound": "shootAlt",
+    "shootCone": 30,
+    "shoot":{
+        "type": "ShootSpread",
+        "shots": 1,
+        "spread": 0
+        },
+    "ammoTypes": {
+        "lead": {
+            "lifetime": 10,
+            "width": 7,
+            "height": 15,
+            "damage": 10,
+            "speed": 40,
+            "ammoMultiplier": 2
+        },
+        "metaglass": {
+            "lifetime": 10,
+            "width": 7,
+            "height": 15,
+            "damage": 15,
+            "speed": 40,
+            "ammoMultiplier": 4
+        },
+        "uranium-depleted": {
+            "lifetime": 10,
+            "width": 7,
+            "height": 15,
+            "damage": 20,
+            "speed": 30,
+            "ammoMultiplier": 4
+        },
+        "uranium-depleted-ammo": {
+            "lifetime": 10,
+            "width": 7,
+            "height": 15,
+            "damage": 30,
+            "speed": 30,
+            "pierceArmor": true,
+            "status": "burning",
+            "statusDuration": 300,
+            "ammoMultiplier": 4
+        }
+    },
+    "category": "turret",
+    "research":{
+        "parent": "Nucleardustry",
+        "requirements":[
+            "copper/1250",
+            "lead/1050",
+            "metaglass/950",
+            "uranium/850"
+        ]
+      },
+    "requirements": [    
+        "copper/75",
+        "lead/55",
+        "metaglass/45",
+        "uranium/35"
+    ]
+}
