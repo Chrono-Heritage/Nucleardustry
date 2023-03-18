@@ -49,16 +49,5 @@
             "shootSound": "laser",
             "loopSound": "beam"
         }
-    ],
-    "research":{
-        "parent": "nuclear-unit-factory",
-        "requirements":[
-            "copper/3250",
-            "lead/2750",
-            "graphite/1250",
-            "titanium/1250",
-            "radioalloy/1000",
-            "uranium/1000"
-        ]
-      }
+    ]
 }

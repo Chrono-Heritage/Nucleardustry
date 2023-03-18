@@ -25,7 +25,7 @@
     "ambientSound": "power/GeigerCounter",
     "ambientSoundVolume": 0.75,
     "research":{
-      "parent": "radioactive-smelter",
+      "parent": "radioactive-separator",
       "requirements":[
           "copper/3250",
           "lead/2750",

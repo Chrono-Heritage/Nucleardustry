@@ -77,7 +77,7 @@
 },
 "category": "turret",
 "research": {
-    "parent": "nuclear-laser-rmitter",
+    "parent": "nuclear-laser-emitter",
     "requirements":[
         "copper/7500",
         "lead/4500",

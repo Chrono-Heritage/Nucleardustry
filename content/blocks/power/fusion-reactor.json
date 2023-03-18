@@ -22,7 +22,7 @@
     "ambientSound": "pulse",
     "ambientSoundVolume": 0.75,
     "research":{
-      "parent": "atomic-bomb-crafter",
+      "parent": "pressurized-heavy-water-reactor",
       "requirements":[
         "copper/5000",
         "lead/4500",

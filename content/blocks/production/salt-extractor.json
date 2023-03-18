@@ -15,7 +15,7 @@
   "outputItem": "salt/2",
   "category": "production",
   "research":{
-    "parent": "Nucleardustry",
+    "parent": "heavy-water-extractor",
     "requirements":[
         "copper/2500",
         "silicon/1000",
