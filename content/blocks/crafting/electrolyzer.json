@@ -16,7 +16,7 @@
       "chrono-nucleardustry-salt/1"
     ],
     "fluids": [
-      "chrono-nucleardustry-heavyWater/0.1"
+      "chrono-nucleardustry-heavy-water/0.1"
     ]
   },
     "output": {
