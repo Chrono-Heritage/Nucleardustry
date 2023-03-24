@@ -1,5 +1,6 @@
 {
     "type":"flying",
+    "coreUnitDock": true,
     "isEnemy": false,
     "flying":true,
     "mineSpeed": 12,
