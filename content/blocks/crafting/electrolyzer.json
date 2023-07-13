@@ -22,8 +22,7 @@
     "output": {
       "fluids": [
           "chrono-nucleardustry-deuterium/0.1"
-      ],
-      "power": 6.5
+      ]
     },
     "craftTime": 150
   }

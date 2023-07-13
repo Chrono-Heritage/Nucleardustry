@@ -1,3 +1,4 @@
+- # This mod is now merged in [Moderndustry](https://github.com/Chrono-Heritage/Moderndustry), any new contents will be there.
 # Needs [Mutli Crafter Lib](https://github.com/liplum/MultiCrafterLib) in v.1.2 beta v2 or above!
 # Nucleardustry
 This is my first mod for mindustry, so pls give me your comment so that i can improve this mod!
